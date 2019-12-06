@@ -1,0 +1,41 @@
+div.services {
+  position: relative;
+  /* height: 100vh; */
+  margin: 100px 0 0 0;
+  font-weight: bold;
+}
+
+div.h1 {
+  /* height: 30vh;
+  line-height: 30vh; */
+  font-weight: bold;
+  text-align: center;
+}
+
+@keyframes slideFromDown {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.serv1 {
+  height: 250px;
+  width: 250px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 10px white;
+  box-shadow: 0 0 10px white;
+  z-index: 1;
+}
+
+.servBGC {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-clip-path: polygon(0 0, 100% 48%, 100% 100%, 0 50%);
+  clip-path: polygon(0 0, 100% 48%, 100% 100%, 0 50%);
+  background-color: grey;
+  z-index: -1;
+}

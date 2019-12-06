@@ -1,0 +1,76 @@
+div.about {
+  margin: 100px 0 50px 0;
+}
+.line {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 5px;
+  width: 10px;
+  background-color: black;
+  animation: scale 2s linear both;
+}
+// div.about .line::before {
+//   content: "";
+//   position: absolute;
+//   left: 0;
+//   // transform: translateX(-50%);
+//   height: 10px;
+//   // width: 400px;
+//   background-color: black;
+//   animation: scale 5s linear both;
+// }
+// div.about .line::after {
+//   content: "";
+//   position: absolute;
+//   left: 0;
+
+//   height: 10px;
+//   width: 400px;
+//   background-color: black;
+//   animation: show 5s linear both;
+// }
+
+@keyframes show {
+  0% {
+    width: 0;
+    transform: translateX(0);
+  }
+  100% {
+    width: 400px;
+    transform: translateX(-100%);
+  }
+}
+@keyframes scale {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(70);
+  }
+}
+@keyframes showRight {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 400px;
+  }
+}
+@media (max-width: 700px) {
+  div.about {
+    margin: 100px 0 50px 0;
+  }
+  &p {
+    padding: 0;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .line {
+    width: 4px;
+  }
+}

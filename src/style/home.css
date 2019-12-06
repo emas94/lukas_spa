@@ -1,0 +1,101 @@
+div.home {
+  top: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 100vw;
+  background-size: cover;
+  overflow: hidden;
+  overflow-x: hidden;
+}
+
+div.homePhoto {
+  position: absolute;
+  top: 0;
+  z-index: -2;
+  height: 100vh;
+  min-width: 100%;
+  max-width: 100%;
+  background-image: url("../img/home.jpg");
+  background-size: cover;
+  background-position: center 70%;
+  overflow-x: hidden;
+  box-shadow: inset 0 0 150px black;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.home--p {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  height: 50%;
+  width: 100%;
+}
+
+.home__text {
+  position: absolute;
+  width: 700px;
+  height: 300px;
+  left: 10px;
+  bottom: calc(40% - 300px);
+  font-size: 48px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.home__text h1 {
+  font-size: 32px;
+  margin-top: auto;
+  /* line-height: 70px; */
+  font-weight: bold;
+  color: white;
+}
+
+.home__text p {
+  /* margin: auto auto; */
+  /* padding: auto auto; */
+  font-size: 38px;
+  font-weight: italic;
+  color: black;
+  width: 100%;
+  align-self: center;
+  margin: 0;
+  opacity: 0;
+  position: absolute;
+  /* color: white; */
+  text-align: center;
+}
+
+.home__text button {
+  margin-top: 0.5rem;
+}
+
+.animation__p {
+  -webkit-animation: 4s opa linear infinite;
+  animation: 4s opa linear infinite;
+}
+
+@keyframes opa {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

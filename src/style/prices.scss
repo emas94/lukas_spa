@@ -1,0 +1,119 @@
+.price .modal-content {
+  /* min-width: 800px; */
+  min-height: 80vh;
+}
+
+.modal-body p {
+  margin-top: 20px;
+}
+
+.price .modal-body img {
+  display: block;
+  -webkit-box-shadow: 0 0 10px 2px black;
+  box-shadow: 0 0 10px 2px black;
+  margin-top: 20px;
+  height: 200px !important;
+  width: 200px !important;
+  border-radius: 0% !important;
+}
+.priceOffert {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 70%;
+  -ms-flex-preferred-size: 49%;
+  flex-basis: 49%;
+  /* flex-wrap: wrap; */
+}
+
+.card {
+  -webkit-box-shadow: 0 0 10px black;
+  box-shadow: 0 0 10px black;
+}
+
+.priceOffert span {
+  font-size: 48px;
+  font-family: "chilanka", "roboto";
+  font-weight: bold;
+  padding: 10px;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  display: block;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -ms-flex-preferred-size: 20%;
+  flex-basis: 20%;
+  color: yellowgreen;
+}
+
+.priceOffert div {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.priceOffert div p {
+  padding: 0;
+  margin: 0;
+}
+
+.priceOffert ul {
+  list-style-type: circle;
+  font-size: 0.2rem !important;
+}
+
+.priceOffert ul li {
+  font-size: 0.5rem;
+}
+div.price {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 100px 0 0 0;
+}
+div.price .line {
+  position: relative;
+}
+.price .container img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+.merc_y,
+.merc_b,
+.merc_w,
+.man {
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 40%;
+  margin: auto;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+.man {
+  background-image: url("../img/cars/man.jpg");
+  background-position: 30%;
+}
+.merc_b {
+  background-image: url("../img/cars/merc_b.jpg");
+  // background-position: 10%;
+}
+.merc_w {
+  background-image: url("../img/cars/merc_w.jpg");
+  background-position: 35% 80%;
+}
+.merc_y {
+  background-image: url("../img/cars/merc_y.jpg");
+}
