@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/lukas_spa/static/css/main.d2333cfa.chunk.css",
-    "main.js": "/lukas_spa/static/js/main.964ebdd9.chunk.js",
-    "main.js.map": "/lukas_spa/static/js/main.964ebdd9.chunk.js.map",
+    "main.js": "/lukas_spa/static/js/main.85004a3f.chunk.js",
+    "main.js.map": "/lukas_spa/static/js/main.85004a3f.chunk.js.map",
     "runtime-main.js": "/lukas_spa/static/js/runtime-main.b6ef687a.js",
     "runtime-main.js.map": "/lukas_spa/static/js/runtime-main.b6ef687a.js.map",
     "static/css/2.17e5ed98.chunk.css": "/lukas_spa/static/css/2.17e5ed98.chunk.css",
     "static/js/2.b78e225a.chunk.js": "/lukas_spa/static/js/2.b78e225a.chunk.js",
     "static/js/2.b78e225a.chunk.js.map": "/lukas_spa/static/js/2.b78e225a.chunk.js.map",
     "index.html": "/lukas_spa/index.html",
-    "precache-manifest.de6d429515887946da34c9a6fc475233.js": "/lukas_spa/precache-manifest.de6d429515887946da34c9a6fc475233.js",
+    "precache-manifest.266a8934f29da387407b397393f080e4.js": "/lukas_spa/precache-manifest.266a8934f29da387407b397393f080e4.js",
     "service-worker.js": "/lukas_spa/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/lukas_spa/static/css/2.17e5ed98.chunk.css.map",
     "static/css/main.d2333cfa.chunk.css.map": "/lukas_spa/static/css/main.d2333cfa.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.b78e225a.chunk.js",
     "static/css/main.d2333cfa.chunk.css",
-    "static/js/main.964ebdd9.chunk.js"
+    "static/js/main.85004a3f.chunk.js"
   ]
 }
