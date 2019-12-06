@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/lukas_spa/static/css/main.23470ae8.chunk.css",
+    "main.css": "/lukas_spa/static/css/main.ff68671a.chunk.css",
     "main.js": "/lukas_spa/static/js/main.46e7ca81.chunk.js",
     "main.js.map": "/lukas_spa/static/js/main.46e7ca81.chunk.js.map",
     "runtime-main.js": "/lukas_spa/static/js/runtime-main.b6ef687a.js",
@@ -9,10 +9,10 @@
     "static/js/2.b78e225a.chunk.js": "/lukas_spa/static/js/2.b78e225a.chunk.js",
     "static/js/2.b78e225a.chunk.js.map": "/lukas_spa/static/js/2.b78e225a.chunk.js.map",
     "index.html": "/lukas_spa/index.html",
-    "precache-manifest.a7b8900a6f011f1b4bbff9b10f9bddbe.js": "/lukas_spa/precache-manifest.a7b8900a6f011f1b4bbff9b10f9bddbe.js",
+    "precache-manifest.8c9da575b2ddbf0ba8434200c7c3d772.js": "/lukas_spa/precache-manifest.8c9da575b2ddbf0ba8434200c7c3d772.js",
     "service-worker.js": "/lukas_spa/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/lukas_spa/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.23470ae8.chunk.css.map": "/lukas_spa/static/css/main.23470ae8.chunk.css.map",
+    "static/css/main.ff68671a.chunk.css.map": "/lukas_spa/static/css/main.ff68671a.chunk.css.map",
     "static/media/home.scss": "/lukas_spa/static/media/home.500f89a4.jpg",
     "static/media/contact.scss": "/lukas_spa/static/media/koperta.5ca74619.jpg",
     "static/media/prices.css": "/lukas_spa/static/media/merc_y.641a1dad.jpg"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.b6ef687a.js",
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.b78e225a.chunk.js",
-    "static/css/main.23470ae8.chunk.css",
+    "static/css/main.ff68671a.chunk.css",
     "static/js/main.46e7ca81.chunk.js"
   ]
 }
